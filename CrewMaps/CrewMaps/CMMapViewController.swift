@@ -35,8 +35,21 @@ class CMMapViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let titletView = UIImageView.init(image: #imageLiteral(resourceName: "nav_logo"))
-        navigationItem.titleView = titletView
+        let titleView: UIView
+        if dataSource.responds(to: #selector(CrewMapsDataSource.titleViewForViewController)) {
+            titleView = dataSource.titleViewForViewController!()
+        }
+        else {
+            let image = UIImage.init(named: "nav_logo",
+                                     in: Bundle.init(for: self.classForCoder),
+                                     compatibleWith: nil)
+            let imageView = UIImageView.init(image: image)
+            imageView.contentMode = .scaleAspectFit
+            imageView.sizeToFit()
+            titleView = imageView
+        }
+        
+        navigationItem.titleView = titleView
         
         mapView?.delegate = self
         

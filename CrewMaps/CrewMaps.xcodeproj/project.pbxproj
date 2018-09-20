@@ -14,6 +14,7 @@
 		378E3A06215401A000B25ED2 /* CMMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E3A012154019F00B25ED2 /* CMMapViewController.swift */; };
 		378E3A07215401A000B25ED2 /* CMAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E3A02215401A000B25ED2 /* CMAnnotation.swift */; };
 		378E3A09215401B200B25ED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378E3A08215401B200B25ED2 /* Main.storyboard */; };
+		378E3A182154084600B25ED2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378E3A172154084600B25ED2 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		378E3A012154019F00B25ED2 /* CMMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMMapViewController.swift; sourceTree = "<group>"; };
 		378E3A02215401A000B25ED2 /* CMAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMAnnotation.swift; sourceTree = "<group>"; };
 		378E3A08215401B200B25ED2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		378E3A172154084600B25ED2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				378E3A012154019F00B25ED2 /* CMMapViewController.swift */,
 				378E39FF2154019F00B25ED2 /* CMTabBarController.swift */,
 				378E3A08215401B200B25ED2 /* Main.storyboard */,
+				378E3A172154084600B25ED2 /* Images.xcassets */,
 				378E39F62154017900B25ED2 /* CrewMaps.h */,
 				378E39F72154017900B25ED2 /* Info.plist */,
 			);
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				378E3A09215401B200B25ED2 /* Main.storyboard in Resources */,
+				378E3A182154084600B25ED2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

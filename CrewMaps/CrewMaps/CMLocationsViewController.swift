@@ -13,6 +13,7 @@ import MapKit
 public
 protocol CrewMapsDataSource: CMLocationImageDataSource {
     @objc func annotationsForMap() -> [CMAnnotation]
+    @objc optional func titleViewForViewController() -> UIView
 }
 
 class CMLocationsViewController: UIViewController {
@@ -28,10 +29,21 @@ class CMLocationsViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        let titletView = UIImageView.init(image: #imageLiteral(resourceName: "nav_logo"))
-        titletView.contentMode = .scaleAspectFit
-        titletView.sizeToFit()
-        navigationItem.titleView = titletView
+        let titleView: UIView
+        if dataSource.responds(to: #selector(CrewMapsDataSource.titleViewForViewController)) {
+            titleView = dataSource.titleViewForViewController!()
+        }
+        else {
+            let image = UIImage.init(named: "nav_logo",
+                                     in: Bundle.init(for: self.classForCoder),
+                                     compatibleWith: nil)
+            let imageView = UIImageView.init(image: image)
+            imageView.contentMode = .scaleAspectFit
+            imageView.sizeToFit()
+            titleView = imageView
+        }
+        
+        navigationItem.titleView = titleView
         
         locations = dataSource.annotationsForMap()
     }

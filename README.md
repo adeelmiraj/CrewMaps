@@ -6,12 +6,12 @@ Integration Instructions
 > Download the project somewhere on your disk.
 > Open the Xcode project you want to use this framework in.
 > Right-click on the root `CrewMapsApp` node in the project navigator. Click Add Files to “CrewMapsApp”. In the file chooser, navigate to and select CrewMaps.xcodeproj. Click Add to add CrewMaps.xcodeproj as a sub-project. "Make sure that the project is not open in Xcode while you are adding it as a dependency."
-![Animated Screenshot](https://raw.githubusercontent.com/bfeher/BFPaperTableViewCell/master/BFPaperTableViewCellDemoGif.gif "Animated Screenshot")
+![Add as dependency](https://github.com/adeelmiraj/CrewMaps/blob/master/CrewMapsApp/Add%20to%20Project.png?raw=true "Add as dependency")
 
 > Select the top level CrewMapsApp node to open the project editor. Click the CrewMapsApp target, and then go to the General tab.
 > Scroll down to the Embedded Binaries section. Drag CrewMaps.framework from the Products folder of CrewMaps.xcodeproj onto this section.
 > You just added an entry for the framework in both Embedded Binaries and Linked Frameworks and Binaries.
-![Animated Screenshot](https://raw.githubusercontent.com/bfeher/BFPaperTableViewCell/master/BFPaperTableViewCellDemoGif.gif "Animated Screenshot")
+![Linked library](https://github.com/adeelmiraj/CrewMaps/blob/master/CrewMapsApp/Add%20as%20linked%20framework%20and%20binary.png?raw=true "Linked library")
 
 
 ## Protocols

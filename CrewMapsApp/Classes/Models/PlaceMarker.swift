@@ -31,7 +31,6 @@
 /// THE SOFTWARE.
 
 import UIKit
-import GoogleMaps
 
 class PlaceMarker: GMSMarker {
   let place: GooglePlace

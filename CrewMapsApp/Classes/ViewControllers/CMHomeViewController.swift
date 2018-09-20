@@ -9,8 +9,9 @@
 import UIKit
 import CoreLocation
 import Alamofire
+import CrewMaps
 
-class CMHomeViewController: BaseViewController {
+class CMHomeViewController: UIViewController {
 
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView?
     
@@ -85,7 +86,11 @@ class CMHomeViewController: BaseViewController {
             self.places = placesArray
             
             if self.childVC == nil {
-                let tabBarController = self.storyboard?.instantiateViewController(withIdentifier: "CMTabBarController") as! CMTabBarController
+//                let s = UIStoryboard (
+//                    name: "CoolnessStoryboard", bundle: NSBundle(forClass: CoolnessViewController.self))
+                let bundle = Bundle.init(for: CMTabBarController.self)
+                let storyboard = UIStoryboard.init(name: "Main", bundle: bundle)
+                let tabBarController = storyboard.instantiateInitialViewController() as! CMTabBarController
                 tabBarController.mapsDataSource = self
                 self.addChildViewController(tabBarController)
                 tabBarController.didMove(toParentViewController: self)

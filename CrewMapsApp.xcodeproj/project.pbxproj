@@ -16,6 +16,9 @@
 		376DB82921525F9A00300E94 /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DB82621525F9A00300E94 /* GoogleDataProvider.swift */; };
 		378E3A132154021500B25ED2 /* CrewMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378E3A0F215401D300B25ED2 /* CrewMaps.framework */; };
 		378E3A142154021500B25ED2 /* CrewMaps.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 378E3A0F215401D300B25ED2 /* CrewMaps.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		378E3A1B2154166000B25ED2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 378E3A1A2154166000B25ED2 /* README.md */; };
+		378E3A1D21541F2400B25ED2 /* Add to Project.png in Resources */ = {isa = PBXBuildFile; fileRef = 378E3A1C21541F2400B25ED2 /* Add to Project.png */; };
+		378E3A1F215423A900B25ED2 /* Add as linked framework and binary.png in Resources */ = {isa = PBXBuildFile; fileRef = 378E3A1E215423A900B25ED2 /* Add as linked framework and binary.png */; };
 		43A50F5CCD5656C52AE94BCF /* Pods_CrewMapsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B5B59A9CC563B2B9CD3E93 /* Pods_CrewMapsApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +72,9 @@
 		376DB82521525F9A00300E94 /* GooglePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlace.swift; sourceTree = "<group>"; };
 		376DB82621525F9A00300E94 /* GoogleDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDataProvider.swift; sourceTree = "<group>"; };
 		378E3A0A215401D300B25ED2 /* CrewMaps.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CrewMaps.xcodeproj; path = CrewMaps/CrewMaps.xcodeproj; sourceTree = "<group>"; };
+		378E3A1A2154166000B25ED2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		378E3A1C21541F2400B25ED2 /* Add to Project.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add to Project.png"; sourceTree = "<group>"; };
+		378E3A1E215423A900B25ED2 /* Add as linked framework and binary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add as linked framework and binary.png"; sourceTree = "<group>"; };
 		B4B5B59A9CC563B2B9CD3E93 /* Pods_CrewMapsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrewMapsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B88BE4D073AE075B69B1D55F /* Pods-CrewMapsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrewMapsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrewMapsApp/Pods-CrewMapsApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +136,9 @@
 				376DB8022150390400300E94 /* Assets.xcassets */,
 				376DB8042150390400300E94 /* LaunchScreen.storyboard */,
 				376DB8072150390400300E94 /* Info.plist */,
+				378E3A1C21541F2400B25ED2 /* Add to Project.png */,
+				378E3A1E215423A900B25ED2 /* Add as linked framework and binary.png */,
+				378E3A1A2154166000B25ED2 /* README.md */,
 			);
 			path = CrewMapsApp;
 			sourceTree = "<group>";
@@ -258,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				376DB8062150390400300E94 /* LaunchScreen.storyboard in Resources */,
+				378E3A1F215423A900B25ED2 /* Add as linked framework and binary.png in Resources */,
 				376DB8032150390400300E94 /* Assets.xcassets in Resources */,
+				378E3A1B2154166000B25ED2 /* README.md in Resources */,
+				378E3A1D21541F2400B25ED2 /* Add to Project.png in Resources */,
 				376DB801215038FE00300E94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,24 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		376DB7FC215038FE00300E94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DB7FB215038FE00300E94 /* AppDelegate.swift */; };
-		376DB7FE215038FE00300E94 /* CLMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DB7FD215038FE00300E94 /* CLMapViewController.swift */; };
+		376DB7FE215038FE00300E94 /* CMMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DB7FD215038FE00300E94 /* CMMapViewController.swift */; };
 		376DB801215038FE00300E94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 376DB7FF215038FE00300E94 /* Main.storyboard */; };
 		376DB8032150390400300E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 376DB8022150390400300E94 /* Assets.xcassets */; };
 		376DB8062150390400300E94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 376DB8042150390400300E94 /* LaunchScreen.storyboard */; };
-		376DB81421503FA100300E94 /* CLAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DB81321503FA100300E94 /* CLAnnotation.swift */; };
-		376DB816215041BE00300E94 /* CLAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DB815215041BE00300E94 /* CLAnnotationView.swift */; };
+		376DB81421503FA100300E94 /* CMAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DB81321503FA100300E94 /* CMAnnotation.swift */; };
+		376DB816215041BE00300E94 /* CMAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DB815215041BE00300E94 /* CMAnnotationView.swift */; };
+		376DB8182150474000300E94 /* CMLocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DB8172150474000300E94 /* CMLocationsViewController.swift */; };
+		376DB81E215240D100300E94 /* CMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DB81D215240D100300E94 /* CMTabBarController.swift */; };
+		376DB82221525BE600300E94 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DB82121525BE600300E94 /* BaseViewController.swift */; };
+		376DB82421525C3100300E94 /* CMHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DB82321525C3100300E94 /* CMHomeViewController.swift */; };
+		376DB82821525F9A00300E94 /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DB82521525F9A00300E94 /* GooglePlace.swift */; };
+		376DB82921525F9A00300E94 /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DB82621525F9A00300E94 /* GoogleDataProvider.swift */; };
+		376DB82A21525F9A00300E94 /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DB82721525F9A00300E94 /* PlaceMarker.swift */; };
+		376DB8302152FC2D00300E94 /* CMMapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DB82F2152FC2D00300E94 /* CMMapTableViewCell.swift */; };
+		43A50F5CCD5656C52AE94BCF /* Pods_CrewMapsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B5B59A9CC563B2B9CD3E93 /* Pods_CrewMapsApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		326F5F090FAEACB886C15D92 /* Pods-CrewMapsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrewMapsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrewMapsApp/Pods-CrewMapsApp.release.xcconfig"; sourceTree = "<group>"; };
 		376DB7F8215038FE00300E94 /* CrewMapsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrewMapsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		376DB7FB215038FE00300E94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		376DB7FD215038FE00300E94 /* CLMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLMapViewController.swift; sourceTree = "<group>"; };
+		376DB7FD215038FE00300E94 /* CMMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMMapViewController.swift; sourceTree = "<group>"; };
 		376DB800215038FE00300E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		376DB8022150390400300E94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		376DB8052150390400300E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		376DB8072150390400300E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		376DB81321503FA100300E94 /* CLAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLAnnotation.swift; sourceTree = "<group>"; };
-		376DB815215041BE00300E94 /* CLAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLAnnotationView.swift; sourceTree = "<group>"; };
+		376DB81321503FA100300E94 /* CMAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMAnnotation.swift; sourceTree = "<group>"; };
+		376DB815215041BE00300E94 /* CMAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMAnnotationView.swift; sourceTree = "<group>"; };
+		376DB8172150474000300E94 /* CMLocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMLocationsViewController.swift; sourceTree = "<group>"; };
+		376DB81D215240D100300E94 /* CMTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMTabBarController.swift; sourceTree = "<group>"; };
+		376DB82121525BE600300E94 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		376DB82321525C3100300E94 /* CMHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMHomeViewController.swift; sourceTree = "<group>"; };
+		376DB82521525F9A00300E94 /* GooglePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlace.swift; sourceTree = "<group>"; };
+		376DB82621525F9A00300E94 /* GoogleDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDataProvider.swift; sourceTree = "<group>"; };
+		376DB82721525F9A00300E94 /* PlaceMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceMarker.swift; sourceTree = "<group>"; };
+		376DB82F2152FC2D00300E94 /* CMMapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMMapTableViewCell.swift; sourceTree = "<group>"; };
+		B4B5B59A9CC563B2B9CD3E93 /* Pods_CrewMapsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrewMapsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88BE4D073AE075B69B1D55F /* Pods-CrewMapsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrewMapsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrewMapsApp/Pods-CrewMapsApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43A50F5CCD5656C52AE94BCF /* Pods_CrewMapsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14C43B2D1E6ABA474756A80A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4B5B59A9CC563B2B9CD3E93 /* Pods_CrewMapsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2649D888CFEA156F36CACDF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B88BE4D073AE075B69B1D55F /* Pods-CrewMapsApp.debug.xcconfig */,
+				326F5F090FAEACB886C15D92 /* Pods-CrewMapsApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		376DB7EF215038FE00300E94 = {
 			isa = PBXGroup;
 			children = (
 				376DB7FA215038FE00300E94 /* CrewMapsApp */,
 				376DB7F9215038FE00300E94 /* Products */,
+				2649D888CFEA156F36CACDF6 /* Pods */,
+				14C43B2D1E6ABA474756A80A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,7 +121,11 @@
 		376DB80E2150395100300E94 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				376DB7FD215038FE00300E94 /* CLMapViewController.swift */,
+				376DB82121525BE600300E94 /* BaseViewController.swift */,
+				376DB82321525C3100300E94 /* CMHomeViewController.swift */,
+				376DB81D215240D100300E94 /* CMTabBarController.swift */,
+				376DB7FD215038FE00300E94 /* CMMapViewController.swift */,
+				376DB8172150474000300E94 /* CMLocationsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -89,7 +133,8 @@
 		376DB80F2150396300300E94 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				376DB815215041BE00300E94 /* CLAnnotationView.swift */,
+				376DB815215041BE00300E94 /* CMAnnotationView.swift */,
+				376DB82F2152FC2D00300E94 /* CMMapTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -97,7 +142,10 @@
 		376DB8102150396F00300E94 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				376DB81321503FA100300E94 /* CLAnnotation.swift */,
+				376DB81321503FA100300E94 /* CMAnnotation.swift */,
+				376DB82621525F9A00300E94 /* GoogleDataProvider.swift */,
+				376DB82521525F9A00300E94 /* GooglePlace.swift */,
+				376DB82721525F9A00300E94 /* PlaceMarker.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -109,9 +157,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 376DB80A2150390400300E94 /* Build configuration list for PBXNativeTarget "CrewMapsApp" */;
 			buildPhases = (
+				77A0280D58BA76383581EBD1 /* [CP] Check Pods Manifest.lock */,
 				376DB7F4215038FE00300E94 /* Sources */,
 				376DB7F5215038FE00300E94 /* Frameworks */,
 				376DB7F6215038FE00300E94 /* Resources */,
+				0CBFB825E93DB405E24F77C4 /* [CP] Embed Pods Frameworks */,
+				FCD82D8D5168AD5A5200229C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,15 +219,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CBFB825E93DB405E24F77C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CrewMapsApp/Pods-CrewMapsApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrewMapsApp/Pods-CrewMapsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77A0280D58BA76383581EBD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrewMapsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCD82D8D5168AD5A5200229C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CrewMapsApp/Pods-CrewMapsApp-resources.sh",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrewMapsApp/Pods-CrewMapsApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		376DB7F4215038FE00300E94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				376DB7FE215038FE00300E94 /* CLMapViewController.swift in Sources */,
+				376DB7FE215038FE00300E94 /* CMMapViewController.swift in Sources */,
+				376DB8182150474000300E94 /* CMLocationsViewController.swift in Sources */,
+				376DB82A21525F9A00300E94 /* PlaceMarker.swift in Sources */,
 				376DB7FC215038FE00300E94 /* AppDelegate.swift in Sources */,
-				376DB816215041BE00300E94 /* CLAnnotationView.swift in Sources */,
-				376DB81421503FA100300E94 /* CLAnnotation.swift in Sources */,
+				376DB816215041BE00300E94 /* CMAnnotationView.swift in Sources */,
+				376DB82221525BE600300E94 /* BaseViewController.swift in Sources */,
+				376DB82921525F9A00300E94 /* GoogleDataProvider.swift in Sources */,
+				376DB81421503FA100300E94 /* CMAnnotation.swift in Sources */,
+				376DB8302152FC2D00300E94 /* CMMapTableViewCell.swift in Sources */,
+				376DB82421525C3100300E94 /* CMHomeViewController.swift in Sources */,
+				376DB81E215240D100300E94 /* CMTabBarController.swift in Sources */,
+				376DB82821525F9A00300E94 /* GooglePlace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,14 +436,12 @@
 		};
 		376DB80B2150390400300E94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B88BE4D073AE075B69B1D55F /* Pods-CrewMapsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CrewMapsApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.crewlogix.CrewMapsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -335,14 +451,12 @@
 		};
 		376DB80C2150390400300E94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 326F5F090FAEACB886C15D92 /* Pods-CrewMapsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CrewMapsApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.crewlogix.CrewMapsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
